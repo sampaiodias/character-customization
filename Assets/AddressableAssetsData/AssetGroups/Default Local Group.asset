@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6b2877c9170d53a449896feb7df5eebf
+  m_SerializeEntries:
+  - m_GUID: f6eca66ed18a6ee4aa9ee7aa1186ffe5
+    m_Address: Assets/Sprites/Cowboy Hat.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3c4ed8d7d3dcde43b0c6f9bd74efa6d
+    m_Address: Assets/Sprites/Emoji Sunglasses.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0bc1be1a626a89643aebe3b01846ec6d
+    m_Address: Assets/Particles/Particle System Example.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4f0d41e9e7f6d7a409b33dc5d22257ca, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 650a570d2d1e18f44b7a529bfaba287d, type: 2}
+    - {fileID: 11400000, guid: 1022b7c61c7807b4a929a0157dd931f5, type: 2}

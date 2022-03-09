@@ -9,10 +9,10 @@ public class HeadCustomizations : MonoBehaviour
     [field: SerializeField]
 
     private SpriteRenderer HeadSpriteRenderer { get; set; }
+    public ICustomization CurrentHeadCustomization { get; set; }
     
     private List<ICustomization> _customizations;
     private int _currentHeadIndex;
-    private ICustomization _currentHeadCustomization;
 
     private void Start()
     {
@@ -22,9 +22,9 @@ public class HeadCustomizations : MonoBehaviour
 
     private void ActivateHeadCustomization()
     {
-        _currentHeadCustomization?.Deactivate(HeadSpriteRenderer.gameObject);
-        _currentHeadCustomization = _customizations[_currentHeadIndex];
-        _currentHeadCustomization.Activate(HeadSpriteRenderer.gameObject);
+        CurrentHeadCustomization?.Deactivate(HeadSpriteRenderer.gameObject);
+        CurrentHeadCustomization = _customizations[_currentHeadIndex];
+        CurrentHeadCustomization.Activate(HeadSpriteRenderer.gameObject);
     }
 
     private void NextHead()
